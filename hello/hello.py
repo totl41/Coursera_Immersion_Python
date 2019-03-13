@@ -7,6 +7,7 @@ from foo.bar import run
 
 ##import foo.bar.run
 # комментарий 1
+# комментарий 2
 
 
 main_string = "Привет, мир!"
