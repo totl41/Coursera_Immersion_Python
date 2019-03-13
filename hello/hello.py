@@ -8,7 +8,7 @@ from foo.bar import run
 ##import foo.bar.run
 # комментарий 1
 # комментарий 2
-
+# комментарий 3
 
 main_string = "Привет, мир!"
 print(main_string[0:2])
