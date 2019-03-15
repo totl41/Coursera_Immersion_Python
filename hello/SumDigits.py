@@ -1,8 +1,10 @@
 import sys
 
-#python sumDigit.py 2
 print(f"int args: '{sys.argv}'")
 
-digit_sting = int(sys.argv[1]) + int(sys.argv[2]) + int(sys.argv[3])
+sum_digits: int =0
 
-print(digit_sting)
+for list_item in sys.argv[1]:
+    sum_digits = sum_digits + int(list_item)
+
+print(sum_digits)
