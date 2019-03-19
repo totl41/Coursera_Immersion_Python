@@ -1,7 +1,5 @@
 import sys
 
-# TODO Добавить проверку на не цифровые символы в аргументе
-
 print(f"int args: '{sys.argv}'")
 
 if len(sys.argv) < 2:
